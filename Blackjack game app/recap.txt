@@ -1,0 +1,17 @@
+learned about objects and its methods.
+let object = {
+    methodname: value, 
+    method2: value
+}
+object.method2, object.methodname, etc.
+
+learned about if-else, for loops.
+
+learned about arrays. (arrayname.push(value), indexing, etc)
+
+Math.random() generates a randon number btw 0 - 0.9999 with decimal values.
+Math.random()*n generates a random number btw 0 - (n-0.00001).
+Math.floor(value) removes the decimal part of the value and returns the value.
+
+learned about logical operators &&, ||.
+also learned about return values in functions.
