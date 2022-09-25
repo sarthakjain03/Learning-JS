@@ -1,0 +1,58 @@
+all statements end with ; although it is not necessary
+alert can be used only in the browser developer tools.
+
+alert("Hello"); will give an alert on the window saying Hello with an OK button
+alert(); will give an alert with whatever value in the parenthesis with an OK button
+can take multiple strings by using + 
+
+Data types: string, number, boolean
+
+typeof(); to know the data type of something
+
+prompt(); similar to alert but takes user input, with an OK button
+alert(prompt("Type something")); will give the input as alert.
+
+var variable_name = value; for declaring a variable  
+
+var name = prompt("What is your name?");
+input = Sarthak
+Now the value of name becomes 'Sarthak'.
+
+Naming Conventions for js variables = abc123$_   only.
+
+string concatenation -> a + " " + b will give a b.
+can be used in alert and prompt functions.
+
+string a -> a.length; will give the length of the string a.
+
+commenting in js is same as c/c++.
+
+string slicing -> a.slice(start_index, end_index+1); index starts with 0.
+a.toUpperCase() and a.toLowerCase() for changing casing of a string.
+a.slice(start, end).toUpperCase(); also works.
+
+number operations = + - * / % same as c/c++, with same priority order.
+incrementing and decrementing expressions are same as c/c++ i.e., i++, i--, i+=2, i*=2, etc.
+post and pre incrementing and decrementing is also same.
+
+function name(parameters, if any){
+    statements;
+}
+calling a function -> name();
+
+instead of alert(), we can use console.log(), difference is that with alert any visiter can see the alert but with console.log only the developer can see the alert.
+
+function name(any parameters){}
+
+Math.floor(value) will give a rounded off value.
+Math.round(value) does the same but is more efficient.
+
+to make a function that returns a value:
+function name(parameters, if any){
+    *data*
+    return value or variable or function;
+}
+var result = name(value, if any);
+
+Math.pow(base, exponent); to get a number raised to a power.
+
