@@ -16,10 +16,15 @@ button {
     margin-top: 5px;
     background-color: #5f9341;
     color: white;
-    border: none;
+    border: 1px solid #5f9341;
     border-radius: 3px;
     padding: 10px 15px;
     font-weight: bold;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
 }
 
 ul {
