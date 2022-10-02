@@ -1,0 +1,19 @@
+const variable
+
+addEventListener()
+
+innerHTML
+
+input.value
+
+function parameters
+
+template strings (imp)
+
+localStorage (v.imp) -> setItem("key", value(string type)), clear(), getItem().
+
+JSON.stringify(), JSON.parse()
+
+manifest.json configures our app/chrome_extension
+
+objects in arrays
